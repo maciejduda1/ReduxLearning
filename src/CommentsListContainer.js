@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import CommentList from './CommentsList';
+import CommentsList  from './CommentsList';
 
 const mapStateToProps = state => ({
 	comments: state.comments
